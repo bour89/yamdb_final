@@ -7,7 +7,8 @@ from rest_framework.views import APIView
 from .models import User2
 from .permissions import IsAdmin
 from .serializers import (ObtainJWTTokenSerializer,
-                          SignUpSerializer, UserSerializer)
+                          SignUpSerializer, 
+                          UserSerializer)
 from .utils import generate_and_send_confrimation_code
 
 
