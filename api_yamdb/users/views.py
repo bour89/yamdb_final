@@ -5,8 +5,8 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .models import User2
+from .serializers import (ObtainJWTTokenSerializer, SignUpSerializer, UserSerializer)
 from .permissions import IsAdmin
-from .serializers import (ObtainJWTTokenSerializer,SignUpSerializer,UserSerializer)
 from .utils import generate_and_send_confrimation_code
 
 
