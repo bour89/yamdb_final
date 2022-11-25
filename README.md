@@ -63,11 +63,10 @@ docker-compose exec web python manage.py loaddata fixtures.json
 docker-compose exec web python manage.py collectstatic
 ```
 
-### 7. Проверить работоспособность проекта
-- Корень проекта: http://localhost/api/v1/
-- Админинстрирование: http://localhost/admin
-- Документация: http://localhost/redoc
-
+### 7. Проимеры запросов
+```bash
+Полный перечень возможных запросов и ответов можно посмотреть после установки и запуска API на локальной машине по ссылке http://127.0.0.1:8000/redoc/
+```
 
 ### Авторы
 - [Артем Тимашков](https://github.com/Bour89):
